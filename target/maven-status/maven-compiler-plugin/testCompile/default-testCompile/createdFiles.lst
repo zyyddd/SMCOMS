@@ -1,0 +1,4 @@
+com\zyd\supermarketcheckoutsystem\orderTest\TestOrderMapper.class
+com\zyd\supermarketcheckoutsystem\goodTest\TestGoodsMapper.class
+com\zyd\supermarketcheckoutsystem\userTest\TestUserMapper.class
+com\zyd\supermarketcheckoutsystem\customerTest\TestCustomerMapper.class

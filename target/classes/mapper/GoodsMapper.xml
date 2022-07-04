@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.zyd.supermarketcheckoutsystem.mapper.GoodsMapper">
+
+    <resultMap id="BaseResultMap" type="com.zyd.supermarketcheckoutsystem.pojo.Goods">
+            <id property="gid" column="gid" jdbcType="INTEGER"/>
+            <result property="price" column="price" jdbcType="DECIMAL"/>
+            <result property="resnum" column="resnum" jdbcType="INTEGER"/>
+            <result property="goodname" column="goodname" jdbcType="VARCHAR"/>
+    </resultMap>
+
+
+
+    <select id="selectOne" resultType="com.zyd.supermarketcheckoutsystem.pojo.Goods">
+    </select>
+</mapper>
